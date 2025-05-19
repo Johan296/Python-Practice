@@ -1,21 +1,25 @@
-name = input("What is your name?")
+name = input("What is your name? ")
 if name == "Johan":
-  print("That's a pretty cool name!")
+  print("Whoa, Johan? That's a legendary name! You must be at least 50% cooler than the average human.")
 else:
-  print("That is not tuff")
+  print("Not bad! But have you considered changing it to 'Johan' for extra style points?")
 
-mood = input("How are you feeling today?")
-if mood == "happy":
-  print("That's great!")
-elif mood == "sad":
-  print("I'm sorry to hear that.")
-else:
-  print("I hope your day gets better!")
+age = int(input("How old are you?"))
+if age < 18:
+  print("You are a minor and i'm gonna touch you jk.")
+elif age >= 18:
+ print("Don't touch me pls!")
+
+mood = input("How are you feeling today? ")
+if mood.lower() == "happy":
+  print("That's awesome! Did you win the lottery or just have coffee?")
+elif mood.lower() == "sad":
+  print("I'm sending you a virtual puppy gif. Hang in there!")
 
 number = int(input("Pick a number: "))
 if number <= 10:
-  print("That's a small number!")
-elif number > 10 and number <= 80:
-  print("That's a medium sized number")
+  print("That's a tiny number! Just like, someone I know who's tiny aswell.")
+elif 10 < number <= 80:
+  print("That's a medium-sized number. Respectable!")
 else:
-  print("Wow that's big!")
+  print("Whoa, that's a huge number!")

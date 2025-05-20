@@ -10,7 +10,7 @@ if age < 18:
 elif age >= 18:
  print("Hello there, unc.")
 
-mood = input("How are you feeling today? (Happy or Sad)").strip().lower()
+mood = input("How are you feeling today? (Happy or Sad)").lower()
 if mood == "happy":
     happy_reason = input("That's awesome! Type 'lottery' if you won the lottery or 'coffee' if you just had coffee: ")
     if happy_reason == "lottery":

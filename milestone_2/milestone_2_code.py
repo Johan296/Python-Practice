@@ -2,7 +2,7 @@ name = input("What is your name? ")
 if name == "Johan":
   print("Johan? That's a cool name! You must be at least 50% cooler than the average human.")
 else:
-  print("Not bad! But have you considered changing it to 'Johan' for extra style points?")
+  print("Not bad {}, But have you considered changing it to 'Johan' for extra style points?".format(name))
 
 age = int(input("How old are you?"))
 if age < 18:

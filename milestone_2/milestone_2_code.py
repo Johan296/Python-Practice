@@ -21,5 +21,5 @@ if mood == "happy":
         print("Whatever the reason, keep smiling!")
 elif mood == "sad":
     print("I'm sending you a puppy gif. Hang in there!")
-    print("Here's your puppy gif: https://media.giphy.com/media/3o7aD2saq4v5g0x6cI/giphy.gif")
+    print("Here's your puppy gif: https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmhuYmd2YWJ2MnpuZWtzMmY0Mnp2NWJ3cXk3bzU2cHJpOHFuZG91MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cYZkY9HeKgofpQnOUl/giphy.gif")
     

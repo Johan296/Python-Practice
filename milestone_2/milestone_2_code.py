@@ -1,6 +1,6 @@
 name = input("What is your name? ")
 if name == "Johan":
-  print("Johan? That's a cool name! You must be at least 50% cooler than the average human.")
+  print("Johan? That's a cool name!.")
 else:
   print("Not bad {}, But have you considered changing it to 'Johan' for extra style points?".format(name))
 

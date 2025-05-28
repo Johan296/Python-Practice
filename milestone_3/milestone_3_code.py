@@ -4,8 +4,10 @@ score = 0
 print("Welcome to the Music Quiz!")
 
 # Question 1
-answer = input("What is the name of the song that dissed Drake in 2024?")
-if answer== "Not Like Us".lower():
+answer = input("What is the name of the artist who got featured in the song 'Like that'?")
+if answer== "Kendrick Lamar".lower():
+    print("Correct!")
+elif answer== "Kendrick Lamar ".lower():
     print("Correct!")
     score += 1
 else:
@@ -15,6 +17,8 @@ else:
 answer = input("Who Found the XO record label?")
 if answer == "Weeknd".lower():
     print("Correct!")
+elif answer== "Weekend".lower():
+    print("Uhm Actually its Weeknd without the 'E', but you still got it right:)")
     score += 1
 else:
     print("Incorrect!")
@@ -22,6 +26,8 @@ else:
 # Question 3
 answer = input("Which Artist released the album ' I AM MUSIC'?")
 if answer == "Playboi Carti".lower():
+    print("Correct!")
+elif answer== "Weekend".lower():
     print("Correct!")
     score += 1
 else:

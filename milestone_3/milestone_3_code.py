@@ -31,7 +31,7 @@ else:
 answer = input("Who sang the song 'Juno'?")
 if answer == "Sabrina carpenter".lower():
     print("Correct!")
-    score += 1
+    score += 2
 else:
     print("Incorrect!")
 

@@ -7,6 +7,7 @@ print("Welcome to the Music Quiz!")
 answer = input("What is the name of the artist who got featured in the song 'Like that'?").lower()
 if answer== "kendrick lamar":
     print("Correct!")
+    score += 1
 elif answer== "kendrick lamar ":
     print("Correct!")
     score += 1
@@ -17,6 +18,7 @@ else:
 answer = input("Who Found the XO record label?").lower()
 if answer == "weeknd":
     print("Correct!")
+    score += 1
 elif answer== "weekend":
     print("Uhm Actually its Weeknd without the 'E', but you still got it right:)")
     score += 1
@@ -27,6 +29,7 @@ else:
 answer = input("Which Artist released the album ' I AM MUSIC'?").lower()
 if answer == "playboi carti":
     print("Correct!")
+    score += 1
 elif answer== "playboy cardi":
     print("Correct!")
     score += 1
@@ -37,6 +40,7 @@ else:
 answer = input("Which Rapper Changed his name to 'Ye'?").lower()
 if answer == "kanye West":
     print("Correct!")
+    score += 1
 elif answer== "kanye":
     print("Correct!")
     score += 1
@@ -47,7 +51,8 @@ else:
 answer = input("What is the real name of rapper Eminem?").lower()
 if answer == "marshall mathers":
     print("Correct!")
-elif answer== "marshall mathers ":
+    score += 1
+elif answer== "marshal mathers":
     print("Correct!")
     score += 1
 else:
@@ -57,7 +62,7 @@ else:
 answer = int(input("How many songs does The Weeknd have that are over 1 billion streams ?")) 
 if answer == 27:
     print("Correct!")
-    score += 1
+    score += 2
 else:
     print("Incorrect!")
 

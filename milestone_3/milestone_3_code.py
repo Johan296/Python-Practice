@@ -4,12 +4,13 @@ score = 0
 print("Welcome to the Music Quiz!")
 
 # Question 1
-answer = input("What is the name of the artist who got featured in the song 'Like that'?").lower()
-if answer== "kendrick lamar":
-    print("Correct!")
-    print("-------------------------")
-    score += 1
-elif answer== "kendrick":
+print("What is the name of the artist who got featured in the song 'Like that'?")
+print("a) Drake")
+print("b) Kendrick Lamar")
+print("c) Travis Scott")
+print("d) J. Cole")
+answer = input("Enter your answer (a/b/c/d): ").lower()
+if answer == "b":
     print("Correct!")
     print("-------------------------")
     score += 1
@@ -18,13 +19,14 @@ else:
     print("-------------------------")
 
 # Question 2
-answer = input("Who Found the XO record label?").lower()
-if answer == "weeknd":
+print("Which rapper changed his name to 'Ye'?")
+print("a) Kanye West")
+print("b) Yellawolf")
+print("c) Yella beezy")
+print("d) Yellbowow")
+answer = input("Enter your answer (a/b/c/d): ").lower()
+if answer == "a":
     print("Correct!")
-    print("-------------------------")
-    score += 1
-elif answer== "weekend":
-    print("Uhm Actually its Weeknd without the 'E', but you still got it right:)")
     print("-------------------------")
     score += 1
 else:
@@ -32,12 +34,13 @@ else:
     print("-------------------------")
 
 # Question 3
-answer = input("Which Artist released the album ' I AM MUSIC'?").lower()
-if answer == "playboi carti":
-    print("Correct!")
-    print("-------------------------")
-    score += 1
-elif answer== "playboy cardi":
+print("What is the real name of the artist 'Eminem'?")
+print("a) Mathew Marshall")
+print("b) Mathew Mather")
+print("c) Marshall Mathew")
+print("d) Marshall Mather")
+answer = input("Enter your answer (a/b/c/d): ").lower()
+if answer == "d":
     print("Correct!")
     print("-------------------------")
     score += 1
@@ -46,12 +49,13 @@ else:
     print("-------------------------")
 
 # Question 4
-answer = input("Which Rapper Changed his name to 'Ye'?").lower()
-if answer == "kanye West":
-    print("Correct!")
-    print("-------------------------")
-    score += 1
-elif answer== "kanye":
+print("Who found the XO record label?")
+print("a) Travis Scott")
+print("b) Dr. Dre")
+print("c) The Weeknd")
+print("d) Drake")
+answer = input("Enter your answer (a/b/c/d): ").lower()
+if answer == "c":
     print("Correct!")
     print("-------------------------")
     score += 1
@@ -60,12 +64,13 @@ else:
     print("-------------------------")
 
 # Question 5
-answer = input("What is the real name of rapper Eminem?").lower()
-if answer == "marshall mathers":
-    print("Correct!")
-    print("-------------------------")
-    score += 1
-elif answer== "marshal mathers":
+print("How many songs does the Weeknd have that are over 1 billion streams?")
+print("a) 5")
+print("b) 27")
+print("c) 19")
+print("d) 10")
+answer = input("Enter your answer (a/b/c/d): ").lower()
+if answer == "b":
     print("Correct!")
     print("-------------------------")
     score += 1
@@ -74,16 +79,50 @@ else:
     print("-------------------------")
 
 # Question 6
-correct_answer = 27
-answer = int(input("How many songs does the Weeknd have that are over 1 billion streams ?"))
-if answer == 27:
+print("Which rapper is known for the album 'I AM MUSIC'?")
+print("a) Playboi Carti")
+print("b) Tyler the creator")
+print("c) Lil wayne")
+print("d) Kid cudi")
+answer = input("Enter your answer (a/b/c/d): ").lower()
+if answer == "a":
     print("Correct!")
     print("-------------------------")
-    score += 2
+    score += 1
+else:
+    print("Incorrect!")
+    print("-------------------------")
+
+# Question 7
+print("Which anime did D4vd's song 'Feel it' got played?")
+print("a) Devil may cry")
+print("b) My hero academia")
+print("c) Tokyo Ghoul")
+print("d) Invincible")
+answer = input("Enter your answer (a/b/c/d): ").lower()
+if answer == "d":
+    print("Correct!")
+    print("-------------------------")
+    score += 1
 else:
     print("Incorrect!")
     print("-------------------------")
    
+# Question 8
+print("In which D4vd's album the song 'Feel it' got played?")
+print("a) Weathered")
+print("b) Willows in the wind")
+print("c) Withered")
+print("d) Witch Craft")
+answer = input("Enter your answer (a/b/c/d): ").lower()
+if answer == "c":
+    print("Correct!")
+    print("-------------------------")
+    score += 1
+else:
+    print("Incorrect!")
+    print("-------------------------")
+
 # Final score
 print("Quiz completed!")
 print("Score:", score)

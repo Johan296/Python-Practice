@@ -94,7 +94,7 @@ else:
     print("-------------------------")
 
 # Question 7
-print("Which anime did D4vd's song 'Feel it' got played?")
+print("Which animated series did D4vd's song 'Feel it' got played?")
 print("a) Devil may cry")
 print("b) My hero academia")
 print("c) Tokyo Ghoul")
@@ -122,6 +122,7 @@ if answer == "c":
 else:
     print("Incorrect!")
     print("-------------------------")
+
 
 # Final score
 print("Quiz completed!")

@@ -123,7 +123,37 @@ else:
     print("Incorrect!")
     print("-------------------------")
 
+# Question 9
+print("What is Kali Uchis' most popular song?")
+print("a) Moon Light")
+print("b) See you again")
+print("c) Telepatia")
+print("d) I wish you roses")
+answer = input("Enter your answer (a/b/c/d): ").lower()
+if answer == "c":
+    print("Correct!")
+    print("-------------------------")
+    score += 1
+else:
+    print("Incorrect!")
+    print("-------------------------")
+
+# Question 10
+print("What is the name of the Artist who got featured in the song 'See you again' by Tyler the Creator?")
+print("a) Kali Uchis")
+print("b) Taylot Swift")
+print("c) Don Toliver")
+print("d) Charlie Puth")
+answer = input("Enter your answer (a/b/c/d): ").lower()
+if answer == "a":
+    print("Correct!")
+    print("-------------------------")
+    score += 1
+else:
+    print("Incorrect!")
+    print("-------------------------")
 
 # Final score
 print("Quiz completed!")
+print("You have finished the Music Quiz")
 print("Score:", score)

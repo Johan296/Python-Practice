@@ -2,6 +2,7 @@
 # This is a simple music quiz coding that asks the user five questions about music.
 score = 0
 print("Welcome to the Music Quiz!")
+print("This is a quiz about famous music artists and their songs.")
 
 # Question 1
 print("What is the name of the artist who got featured in the song 'Like that'?")
@@ -19,11 +20,11 @@ else:
     print("-------------------------")
 
 # Question 2
-print("Which rapper changed his name to 'Ye'?")
-print("a) Kanye West")
-print("b) Yellawolf")
-print("c) Yella beezy")
-print("d) Yellbowow")
+print("Which of the following is not an album of the artist 'Kendrick Lamar'?")
+print("a) Scorpion")
+print("b) GNX")
+print("c) DAMN.")
+print("d) To Pimp a Butterfly")
 answer = input("Enter your answer (a/b/c/d): ").lower()
 if answer == "a":
     print("Correct!")

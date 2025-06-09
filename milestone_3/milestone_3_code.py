@@ -16,7 +16,7 @@ if answer == "b":
     print("-------------------------")
     score += 1
 else:
-    print("Incorrect!")
+    print("Incorrect, the correct answer is b) Kendrick Lamar")
     print("-------------------------")
 
 # Question 2
@@ -31,7 +31,7 @@ if answer == "a":
     print("-------------------------")
     score += 1
 else:
-    print("Incorrect!")
+    print("Incorrect, the correct answer is a) Scorpion")
     print("-------------------------")
 
 # Question 3
@@ -46,7 +46,7 @@ if answer == "d":
     print("-------------------------")
     score += 1
 else:
-    print("Incorrect!")
+    print("Incorrect, the correct answer is d) Marshall Mather")
     print("-------------------------")
 
 # Question 4
@@ -61,7 +61,7 @@ if answer == "c":
     print("-------------------------")
     score += 1
 else:
-    print("Incorrect!")
+    print("Incorrect, the correct answer is c) The Weeknd")
     print("-------------------------")
 
 # Question 5
@@ -76,7 +76,7 @@ if answer == "b":
     print("-------------------------")
     score += 1
 else:
-    print("Incorrect!")
+    print("Incorrect, the correct answer is b) 27")
     print("-------------------------")
 
 # Question 6
@@ -91,7 +91,7 @@ if answer == "a":
     print("-------------------------")
     score += 1
 else:
-    print("Incorrect!")
+    print("Incorrect, the correct answer is a) Playboi Carti")
     print("-------------------------")
 
 # Question 7
@@ -106,7 +106,7 @@ if answer == "d":
     print("-------------------------")
     score += 1
 else:
-    print("Incorrect!")
+    print("Incorrect, the correct answer is d) Invincible")
     print("-------------------------")
    
 # Question 8
@@ -121,7 +121,7 @@ if answer == "c":
     print("-------------------------")
     score += 1
 else:
-    print("Incorrect!")
+    print("Incorrect, the correct answer is c) Withered")
     print("-------------------------")
 
 # Question 9
@@ -136,7 +136,7 @@ if answer == "c":
     print("-------------------------")
     score += 1
 else:
-    print("Incorrect!")
+    print("Incorrect, the correct answer is c) Telepatia")
     print("-------------------------")
 
 # Question 10
@@ -151,10 +151,10 @@ if answer == "a":
     print("-------------------------")
     score += 1
 else:
-    print("Incorrect!")
+    print("Incorrect, the correct answer is a) Kali Uchis")
     print("-------------------------")
 
 # Final score
 print("Quiz completed!")
 print("You have finished the Music Quiz")
-print("Score:", score)
+print("Score:", score,"out of 10")
